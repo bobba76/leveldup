@@ -1,0 +1,33 @@
+# Node Modules
+node_modules/
+
+# Environments
+.env
+env/
+
+# Common credential files
+**/credentials.json
+**/client_secrets.json
+**/client_secret.json
+*creds*
+*.dat
+*password*
+*.httr-oauth*
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Local History for Visual Studio Code
+.history/
+
+# Distribution / packaging
+build/
+dist/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
